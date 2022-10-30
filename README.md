@@ -12,9 +12,7 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/objectionary/dedup)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/objectionary/dedup/blob/master/LICENSE.txt)
 
-Deduplication of objects in EO programs.
-
-Dedup is a command-line tool that takes a directory with XMIR files and creates a new directory with modified XMIR files: two or more objects that are semantically equivalent are replaced with a single object.
+It is a command-line tool that takes a directory with XMIR files and creates a new directory with modified XMIR files: two or more objects that are semantically equivalent are replaced with a single object.
 
 Consider the following EO program:
 
