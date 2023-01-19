@@ -7,20 +7,20 @@ public class DeDuplicate {
     /**
      * Path to file to be transformed.
      */
-    private final String path_input;
+    private final String pathInput;
 
     /**
      * Path to output file.
      */
-    private final String path_output;
+    private final String pathOutput;
 
-    public DeDuplicate(final String i_pth, final String o_pth) {
-        this.path_input = i_pth;
-        this.path_output = o_pth;
+    public DeDuplicate(final String iPath, final String oPath) {
+        this.pathInput = iPath;
+        this.pathOutput = oPath;
     }
 
     public void exec() throws IOException {
-        System.out.println(this.path_input);
-        System.out.println(this.path_output);
+        System.out.println(this.pathInput);
+        System.out.println(this.pathOutput);
     }
 }
